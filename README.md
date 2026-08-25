@@ -104,6 +104,9 @@ Step 5: Percentile-based Risk Tier (no hardcoded thresholds)
   High Risk   → Score ≥ P66 (top third of fleet)
   Medium Risk → Score ≥ P33 (middle third)
   Low Risk    → Score < P33 (safest third)
+<img width="680" height="392" alt="image" src="https://github.com/user-attachments/assets/b7601f73-c48e-43b9-9a49-7c6e3963a4fd" />
+
+
 ```
 
 **Weight Justification:**
