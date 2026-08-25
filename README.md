@@ -72,6 +72,8 @@ Trips [Vehicle_ID]    →   Vehicles [Vehicle_ID]  (Many-to-One)
 | 5 | **GPS Route Map** | Speed density heatmap across Bengaluru hubs |
 | Slicers | Hub · Gender · Experience Group · Date Range | Full cross-filter interactivity |
 
+<img width="680" height="392" alt="image" src="https://github.com/user-attachments/assets/b7601f73-c48e-43b9-9a49-7c6e3963a4fd" />
+
 ### Risk Score Methodology
 
 **Why not a fixed score?**  
@@ -105,7 +107,6 @@ Step 5: Percentile-based Risk Tier (no hardcoded thresholds)
   Medium Risk → Score ≥ P33 (middle third)
   Low Risk    → Score < P33 (safest third)
 ```
-<img width="680" height="392" alt="image" src="https://github.com/user-attachments/assets/b7601f73-c48e-43b9-9a49-7c6e3963a4fd" />
 
 **Weight Justification:**
 
@@ -130,6 +131,8 @@ Step 5: Percentile-based Risk Tier (no hardcoded thresholds)
 | 4 | **Service Overdue** (Column chart + 60-day threshold line) | Instant red-flag for overdue vehicles |
 | 5 | **Daily Degradation** (Line chart, small multiples) | Per-vehicle vibration trend — detects mid-week mechanical deterioration |
 | Slicers | Make · Model · Manufacture Year | Filter by vehicle specs |
+
+<img width="678" height="388" alt="image" src="https://github.com/user-attachments/assets/bbe66db6-4912-499b-993d-bb41c5c4e461" />
 
 ### Health Score Methodology
 
