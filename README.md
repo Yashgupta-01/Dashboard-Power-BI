@@ -1,11 +1,11 @@
-# 🚀 VEXAR Fleet Analytics — Power BI Dashboard
+# VEXAR Fleet Analytics — Power BI Dashboard
 
 > **Data Scientist Intern Assignment | VexarDrive Technologies**  
 > Built a complete, production-grade fleet telematics analytics suite in Power BI — covering **driver risk profiling** and **predictive vehicle maintenance** — from raw GPS and IMU sensor data.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 VexarDrive Technologies operates a two-wheeler delivery fleet across Bengaluru. This project analyses **one full week of trip data** — 30 drivers, 30 vehicles, 450 trips, and ~12,987 per-minute telemetry rows — to build two interactive dashboards that give fleet managers instant, data-driven decision support.
 
@@ -16,7 +16,7 @@ VexarDrive Technologies operates a two-wheeler delivery fleet across Bengaluru. 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
@@ -25,7 +25,7 @@ VexarDrive Technologies operates a two-wheeler delivery fleet across Bengaluru. 
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 ```
 Dashboard-Power-BI/
@@ -40,7 +40,7 @@ Dashboard-Power-BI/
 
 ---
 
-## 📊 Dataset Structure
+## Dataset Structure
 
 | Table | Grain | Rows | Key Columns |
 |---|---|---|---|
@@ -59,7 +59,7 @@ Trips [Vehicle_ID]    →   Vehicles [Vehicle_ID]  (Many-to-One)
 
 ---
 
-## 🧑‍✈️ Dashboard 1 — Driver Behaviour
+## Dashboard 1 — Driver Behaviour
 
 ### Visuals
 | # | Visual | Insight |
@@ -119,7 +119,7 @@ Step 5: Percentile-based Risk Tier (no hardcoded thresholds)
 
 ---
 
-## 🔧 Dashboard 2 — Vehicle Health Status
+## Dashboard 2 — Vehicle Health Status
 
 ### Visuals
 | # | Visual | Insight |
@@ -167,7 +167,7 @@ Vehicle_Health_Flag:
 
 ---
 
-## 🔑 Key Assumptions
+## Key Assumptions
 
 | Assumption | Reasoning |
 |---|---|
@@ -180,7 +180,7 @@ Vehicle_Health_Flag:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - [ ] **Percentile Rank Scoring** (RANKX-based) — more robust than min-max when outliers exist
 - [ ] **Predictive Maintenance Model** — XGBoost on historical vibration trends to predict breakdown 7–14 days out
@@ -191,7 +191,7 @@ Vehicle_Health_Flag:
 
 ---
 
-## 📄 Documentation
+## Documentation
 
 The full technical report (`VEXAR_Technical_Report.pdf`) covers:
 - Complete DAX formulas with line-by-line reasoning
